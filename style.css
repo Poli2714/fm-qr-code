@@ -66,3 +66,35 @@ body {
   font-weight: 700;
   text-decoration: none;
 }
+
+@media only screen and (max-width: 550px) {
+  body {
+    font-size: 10px;
+  }
+
+  .qr-card {
+    max-width: 320px;
+    padding: 1rem;
+  }
+
+  .qr-code {
+    max-width: 290px;
+  }
+
+  .text {
+    padding: 1.5rem 0.75rem;
+  }
+
+  .heading {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+
+  .attribution {
+    font-size: 11px;
+  }
+}
